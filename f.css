@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;300&display=swap');
+#navbar{
+    display: flex;
+    background-color: rgba(170, 161, 161, 0.418);
+    margin-top: -8px;
+    height: 4.032em;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    height: 4em;
+}
+.details{
+    width: 57em;
+}
+.details ul{
+    display: flex;
+    margin-top: 1.5em;
+}
+.details ul li{
+    list-style: none;
+    padding-right: 2em;
+}
+.details ul li a{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0.3em 0.6em;
+    border-radius: 1em;
+    color: black;
+}
+.details ul li :hover{
+    background-color: white;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 1em;
+}
+.input{
+    margin-top: 0.5em;
+}
+.input input{
+    width: 31em;
+    height: 2.68em;
+    border: 2px solid black;
+    border-radius: 1.532em;
+    padding-left: 1em;
+}
+.contacts ul{
+    display: flex;
+    margin-top: 1.5em;
+    padding-left: 3em;
+}
+.contacts ul li{
+    list-style: none;
+    padding-left: 2.114em;
+}
+.contacts ul li a{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 1em;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    padding: 0.3em 0.6em;
+    border-radius: 1em;
+    color: black;
+}
+.contacts ul li :hover{
+    background-color: white;
+    color: black;
+    border: 2px solid brown;
+    border-radius: 1em;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url(/images/bg3.jpg);
+    background-size: auto;
+    height: 37em;
+    position: relative;
+    top: -5.9em;
+    z-index: -1;
+}
+.content{
+    margin-top: 15em;
+    display: block;
+    width: 67em;
+    text-align: center;
+    font-size: large;
+}
+.menu button{
+    width: 14em;
+    height: 2em;
+    color: rgba(46, 17, 148, 0.904);
+    background-color: rgba(119, 51, 24, 0.699);
+    font-size: medium;
+    font-family: cursive;
+    font-style: italic;
+    border-radius: 3em;
+}
+.intro{
+    margin-top: -5em;
+    text-align: center;
+    font-size: larger;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+}
+.services h1{
+    text-align: center;
+    font-size: 4em;
+}
+.items{
+    border: 2px solid brown;
+    border-radius: 1em;
+    display: block;
+    margin: 1em;
+    text-align: center;
+    background-color: rgba(221, 212, 212, 0.637);
+}
+.cards{
+    height: 10em;
+    display: block;
+    margin: auto;
+}
+.clients{
+    background-image: url(/images/i6.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+}
+.client_item{
+    height: 6em;
+}
+.clogo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 3em;
+}
+.description label{
+    color: rgb(41, 15, 15);
+    font-size: 2em;
+}
+.description input{
+    width: 31em;
+    height: 2em;
+    border: 2px solid black;
+    background-color: rgba(209, 107, 103, 0.425);
+    border-radius: 2em;
+    padding-left: 1em;
+}
